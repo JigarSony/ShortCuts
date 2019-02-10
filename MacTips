@@ -4,3 +4,6 @@ defaults write com.apple.finder AppleShowAllFiles FALSE
 open new finder option+Cmd +right click +relaunch
 
 jenkins path pending
+
+Environment Variables in Mac
+https://www.youtube.com/watch?v=NSvtis2fGlA

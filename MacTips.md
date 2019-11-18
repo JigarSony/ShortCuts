@@ -90,3 +90,7 @@ cmd + control + space - Emoji box
 ### SlideShow
 
 Select Photo + cmd + option + y
+
+## Dock
+
+cmd +option + D - Show/Hide Dock

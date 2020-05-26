@@ -23,3 +23,7 @@ Call Hierarchy (Ctrl+Alt+H)
 Ctrl + F6 - switch between opened windows in Eclipse
 
 [Reference](https://dzone.com/articles/effective-eclipse-shortcut-key)
+
+TO open explorer from cmd
+
+> path to that folder > "explorer ."

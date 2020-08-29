@@ -1,0 +1,98 @@
+Git Commands
+
+1. Verify Git version
+git --version
+
+2. Add your Git username and set your email
+A. On your shell, type the following command to add your username:
+git config --global user.name "YOUR_USERNAME"
+
+B. Then verify that you have the correct username:
+git config --global user.name
+
+C. To set your email address, type the following command:
+git config --global user.email "your_email_address@example.com"
+
+D. To verify that you entered your email correctly, type:
+git config --global user.email
+
+3. Check your information
+git config --global --list
+
+4. Clone a repository
+Clone via HTTPS:
+git clone https://gitlab.com/gitlab-org/gitlab-ce.git
+
+Clone via SSH:
+git clone git@gitlab.com:gitlab-org/gitlab-ce.git
+
+5. Go to the master branch to pull the latest changes from there
+git checkout master
+
+6. Download the latest changes in the project
+git pull REMOTE NAME-OF-BRANCH
+
+7. View your remote repositories
+git remote -v
+
+8. Create a branch
+git checkout -b NAME-OF-BRANCH
+
+9. Work on an existing branch
+git checkout NAME-OF-BRANCH
+
+10. View the changes you’ve made
+git status
+
+11. Add and commit local changes
+git add FILE OR FOLDER
+git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT"
+
+12. Add all changes to commit
+git add .
+git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT"
+
+13. Send changes to gitlab.com
+
+A. To push all local commits to the remote repository:
+git push REMOTE NAME-OF-BRANCH
+
+B. For example, to push your local commits to the master branch of the origin remote:
+git push origin master
+
+14. Delete all changes in the Git repository
+A. To delete all local changes in the repository that have not been added to the staging area, and leave unstaged files/folders, type:
+git checkout .
+
+B. Delete all untracked changes in the Git repository
+git clean -f
+
+15. Unstage all changes that have been added to the staging area
+- To undo the most recent add, but not committed, files/folders:
+git reset .
+
+16. Undo most recent commit
+git reset HEAD~1
+
+17.
+A. Merge created branch with master branch 
+You need to be in the created branch.
+git checkout NAME-OF-BRANCH
+git merge master
+
+B. Merge master branch with created branch
+You need to be in the master branch.
+git checkout master
+git merge NAME-OF-BRANCH
+
+https://dev.to/usmslm102/git-cheat-sheet-4f5a
+
+https://usamaansari.com/git-cheat-sheet-2/
+
+https://www.danielvonrhein.nl/shell/git-commandline/
+
+https://checkmarx.atlassian.net/wiki/spaces/KC/pages/131432811/GitHub+-+Tips+on+Finding+Git+GitHub+Repository+URLs#:~:text=Tip%20to%20find%20the%20Github,link%20as%20a%20regular%20URL.
+
+https://bitbucket.org/blog/three-ways-jira-can-help-developers-focus-on-code-while-updating-teams-automatically?utm_source=newsletter-email&utm_medium=email&utm_campaign=july2020-BB-digest_EML-7376&jobid=104760305&subid=1527828880
+
+https://support.atlassian.com/bitbucket-cloud/docs/branch-a-repository/

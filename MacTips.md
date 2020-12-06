@@ -36,6 +36,14 @@ cmd + shift + 4 + space + option + Enter - window with border
 
 cmd + shift + / - help menu
 
+Screen shot: shift + cmd + 3 - whole screen
+
+shift + cmd + 4 - selected screen 
+
+Shift + cmd + 4 + spacebar - Windows
+
+Screen shot tool bar : shift + cmd + 5
+
 # Spotlight
 cmd + up/down - jump category result
 
